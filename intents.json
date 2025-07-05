@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "How are you?", "What's up?"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! Need any help?", "Hey! What can I do for you today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon", "Catch you later"],
+      "responses": ["Goodbye! Have a wonderful day!", "See you again soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thanks a lot", "Much appreciated", "Thx"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "No problem at all!"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?", "Who is your developer?", "Tell me about your creator"],
+      "responses": ["I was built by Mujahid Kareem a passionate AI engineers."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it sunny today?", "Do I need an umbrella?", "Tell me today's weather"],
+      "responses": ["I'm not connected to live weather data, but you can check weather.com!", "Please check your local weather app for accurate info."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What time is it?", "Tell me the time", "Current time please", "Do you know the time?"],
+      "responses": ["I'm not a clock, but you can check the time in your system tray!", "It's time to be awesome! ⏰"]
+    },
+    {
+      "tag": "date",
+      "patterns": ["What day is it?", "What's the date today?", "Tell me today's date"],
+      "responses": ["You can check your calendar for the exact date.", "Every day is a good day to learn something new!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you help me?", "Support", "Help me please"],
+      "responses": ["Of course! Tell me what you're trying to do.", "Sure, I'm here to assist. Go ahead."]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Make me laugh", "Do you know a joke?", "Say something funny"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my computer I needed a break, and now it won’t stop sending me vacation ads!"
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": ["Motivate me", "I need motivation", "Inspire me", "Say something inspiring"],
+      "responses": [
+        "Believe in yourself — you're capable of amazing things!",
+        "Every expert was once a beginner. Keep pushing forward!",
+        "The journey of a thousand miles begins with one step."
+      ]
+    },
+    {
+      "tag": "fact",
+      "patterns": ["Tell me a fact", "Say something interesting", "Give me a random fact"],
+      "responses": [
+        "Honey never spoils. Archaeologists found 3,000-year-old honey in Egyptian tombs that was still edible.",
+        "Octopuses have three hearts and blue blood!",
+        "Bananas are berries, but strawberries aren't!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Who are you?", "Tell me your name"],
+      "responses": ["I'm your personal AI assistant chatbot!", "I’m a smart chatbot built to help you."]
+    },
+    {
+      "tag": "feeling",
+      "patterns": ["How are you?", "How do you feel?", "Are you okay?"],
+      "responses": ["I'm doing great! Thanks for asking.", "All systems are running smoothly!", "I'm always happy to chat with you."]
+    }
+  ]
+}
+
